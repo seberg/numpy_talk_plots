@@ -1,0 +1,14 @@
+This repository holds scripts (and some similar tries for plots) for Ralf Gommers
+talk at SciPy 2019 "Inside NumPy: Preparing for the Next Decade".
+
+The commit plots are based on querying `git` directly, and you will have to change
+the path to whichever git repository you wish to query (the BIDS people/times are
+hardcoded though).
+
+The issue/PR data is based on data collected by Nelle Varoquaux (it does query the
+github API for informatio on whether a PR was done against master). Thus for your
+own project (or to recreate the plots) you need to fetch the data yourself.
+(For some plots, the last data point may have been extrapolated).
+
+The `other_plots` folder contains other tries that were not used in the talk
+and may not actually be finished or correct.
